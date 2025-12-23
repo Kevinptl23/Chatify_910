@@ -98,8 +98,8 @@ export const signout = catchAsyncError(async (req, res, next) => {
     res.status(200).cookie("token", "", {
         maxAge: 0,
         httpOnly: true,
-        sameSite: "strict",
-        secure: process.env.NODE_ENV !== "development" ? true : false 
+        sameSite: "none",
+        secure: true
     }).json({
         success: true,
         message: "User Logged-out successfully."
