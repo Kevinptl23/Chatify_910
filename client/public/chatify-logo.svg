@@ -1,0 +1,21 @@
+<svg width="200" height="200" viewBox="0 0 200 200"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="chatifyGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6A5CFF"/>
+      <stop offset="100%" stop-color="#00D4FF"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="100" cy="100" r="90" fill="url(#chatifyGradient)" />
+
+  <rect x="55" y="60" width="90" height="65" rx="18" fill="#ffffff"/>
+
+  <path d="M95 125 L85 145 L115 125 Z" fill="#ffffff"/>
+
+  <circle cx="80" cy="92" r="5" fill="#6A5CFF"/>
+  <circle cx="100" cy="92" r="5" fill="#6A5CFF"/>
+  <circle cx="120" cy="92" r="5" fill="#6A5CFF"/>
+
+</svg>

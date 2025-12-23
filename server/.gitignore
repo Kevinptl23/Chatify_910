@@ -1,0 +1,23 @@
+# Environment variables
+config/
+*.env
+
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime / temp
+temp/
+coverage/
+
+
